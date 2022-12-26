@@ -1,0 +1,42 @@
+.navbar{
+    color: white ;
+    font-size: 12px;
+
+    .container{
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+
+        .left{
+            display: flex;
+            align-items: center;
+            
+        img{
+            height: 50px;
+            }
+        
+         span{
+            margin-right: 40px;
+            }
+
+        }
+
+        .right{
+            display: flex;
+            align-items: center;
+            .icon{
+                margin: 0px, 15px;
+                cursor: pointer;
+            }
+        
+            img{
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                object-fit: cover;
+            }
+        }       
+    }
+}
